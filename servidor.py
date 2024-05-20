@@ -46,7 +46,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Server is running"
+    return "El servidor esta funcionando"
 
 def press_space():
     print("Simulación de presionar espacio")
